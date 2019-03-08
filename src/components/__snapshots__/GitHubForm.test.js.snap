@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GitHubForm renders correctly 1`] = `
+<div
+  className="github-form"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="GitHub user name"
+      required={true}
+      type="text"
+      value=""
+    />
+    <button>
+      Add Card
+    </button>
+  </form>
+</div>
+`;

@@ -10,19 +10,16 @@ class GitHubForm extends React.Component {
     // await response of fetch call
     const response = await fetch(`https://api.github.com/users/${user}`);
     // only proceed once promise is resolved
-    const data = await response.json();
-    // only proceed once second promise is resolved
-    return data;
+    return response.status === 200
+      ? await response.json()
+      : Promise.reject(response);
   };
 
   handleSubmit = (ev) => {
     ev.preventDefault();
-
-    this.fetchAsync(this.state.userName).then(
-      data => this.props.onSubmit(data),
-    ).catch(
-      err => console.error(err),
-    );
+    this.fetchAsync(this.state.userName)
+      .then(data => this.props.onSubmit(data))
+      .catch(err => this.props.onSubmitError(err));
   };
 
   render() {

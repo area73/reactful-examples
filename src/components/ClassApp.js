@@ -8,12 +8,13 @@ class ClassApp extends React.Component {
 
   state = {
     profiles: [],
-    error: {},
+    error: [],
   };
 
   addProfile = profileData => {
     this.setState(prevState => ({
       profiles: [...prevState.profiles, profileData],
+      error:[],
     }));
   };
 
@@ -29,8 +30,8 @@ class ClassApp extends React.Component {
     return (
       <div>
         <h1>{this.props.initialData.appName}</h1>
-        <GitHubForm onSubmit={this.addProfile}/>
-        <Toaster type="error" data={this.error} />
+        <GitHubForm onSubmit={this.addProfile} onSubmitError={this.addError}/>
+        <Toaster type="error" data={this.state.error} />
         <CardList profiles={this.state.profiles}/>
       </div>
     );

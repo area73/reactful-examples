@@ -23,9 +23,12 @@ exports[`CardList renders correctly 1`] = `
       </button>
     </form>
   </div>
-  <div>
-    This is a Toaster 
-    error
+  <div
+    className="toaster"
+  >
+    <span
+      className="error  hide"
+    />
   </div>
   <div
     className="card-list"

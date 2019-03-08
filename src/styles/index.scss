@@ -1,11 +1,11 @@
-$main: #555;
+@import "component/card";
+@import "component/github-form";
+@import "component/card-list";
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  #root {
-    color: $main;
-  }
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }

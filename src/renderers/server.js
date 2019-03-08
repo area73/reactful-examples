@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 
-import { App } from 'components/App';
+// import { App } from 'components/App';
+import  ClassApp  from 'components/ClassApp';
 
 export async function serverRenderer() {
   const initialData = {
-    appName: 'Reactful',
+    appName: 'Rui the King',
   };
 
   const pageData = {
@@ -15,7 +16,7 @@ export async function serverRenderer() {
   return Promise.resolve({
     initialData,
     initialMarkup: ReactDOMServer.renderToString(
-      <App initialData={initialData} />
+      <ClassApp initialData={initialData} />
     ),
     pageData,
   });

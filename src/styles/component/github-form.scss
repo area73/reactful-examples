@@ -1,0 +1,26 @@
+.github-form {
+  padding: 10px;
+  border: 1px solid #afafaf;
+  background-color: aliceblue;
+
+  form {
+    display: grid;
+    grid-template-columns: auto 100px;
+    grid-column-gap: 5px;
+  }
+
+  input {
+    font-size: 1rem;
+    padding: 5px;
+
+  }
+
+  button {
+    padding: 10px;
+    font-size: 1rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}

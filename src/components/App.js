@@ -12,6 +12,7 @@ export function App({ initialData }) {
       <br />
       <br />
       <button onClick={() => setCount(count + 1)}>{count}</button>
+
     </div>
   );
 }

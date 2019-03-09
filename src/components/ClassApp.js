@@ -18,6 +18,12 @@ class ClassApp extends React.Component {
     }));
   };
 
+  removeProfile = profileId => {
+    this.setState(prevState => ({
+      profiles: prevState.profiles.filter(profile => profile.id !== profileId),
+    }));
+  };
+
   addError = err => {
     this.setState(() => (
       {
@@ -32,7 +38,7 @@ class ClassApp extends React.Component {
         <h1>{this.props.initialData.appName}</h1>
         <GitHubForm onSubmit={this.addProfile} onSubmitError={this.addError}/>
         <Toaster type="error" data={this.state.error} />
-        <CardList profiles={this.state.profiles}/>
+        <CardList profiles={this.state.profiles} update={this.removeProfile}/>
       </div>
     );
 

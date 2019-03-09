@@ -19,6 +19,7 @@ exports[`CardList renders correctly 1`] = `
       >
         <a
           href=""
+          onClick={[Function]}
         >
           X
         </a>
@@ -50,6 +51,7 @@ exports[`CardList renders correctly 1`] = `
       >
         <a
           href=""
+          onClick={[Function]}
         >
           X
         </a>

@@ -16,6 +16,7 @@ exports[`Card renders correctly 1`] = `
     >
       <a
         href=""
+        onClick={[Function]}
       >
         X
       </a>

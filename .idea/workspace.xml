@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2cdc7dc-271f-4526-8840-aacdd306d60d" name="Default Changelist" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/addons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/githubUserSearch/__snapshots__/GithunUserSearch.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stories/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/Card.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/CardList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CardList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/CardList.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ClassApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ClassApp.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/GithunUserSearch.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GitHubForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/GitHubForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GitHubForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/GitHubForm.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Toaster.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/Toaster.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__snapshots__/Card.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__snapshots__/CardList.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__snapshots__/ClassApp.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__snapshots__/GitHubForm.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderers/dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderers/dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderers/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderers/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -51,11 +31,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="123">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#195#237#0" expanded="true" />
+                <element signature="e#194#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,10 +44,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.storybook/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="45">
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding>
-                <element signature="e#0#60#0" expanded="true" />
+                <element signature="e#333#392#0" expanded="true" />
+                <element signature="e#412#485#0" expanded="true" />
+                <element signature="e#505#600#0" expanded="true" />
+                <element signature="e#622#694#0" expanded="true" />
+                <element signature="e#716#820#0" expanded="true" />
+                <element signature="e#866#1012#0" expanded="true" />
+                <element signature="e#1064#1337#0" expanded="true" />
+                <element signature="e#1369#1446#0" expanded="true" />
+                <element signature="e#1500#1569#0" expanded="true" />
+                <element signature="e#1598#1678#0" expanded="true" />
+                <element signature="e#1710#1794#0" expanded="true" />
+                <element signature="e#1827#1919#0" expanded="true" />
+                <element signature="e#1953#2045#0" expanded="true" />
+                <element signature="e#2087#2189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.storybook/addons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -323,7 +328,7 @@
       <workItem from="1552033202634" duration="25790000" />
       <workItem from="1552162676665" duration="1835000" />
       <workItem from="1552166435321" duration="1526000" />
-      <workItem from="1552168074597" duration="5902000" />
+      <workItem from="1552168074597" duration="7332000" />
     </task>
     <servers />
   </component>
@@ -333,7 +338,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50791000" />
+    <option name="totallyTimeSpent" value="52221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,7 +353,7 @@
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977778" side_tool="true" weight="0.22899628" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977778" side_tool="true" visible="true" weight="0.22899628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" weight="0.32936803" />
       <window_info id="Favorites" order="3" sideWeight="0.50222224" side_tool="true" weight="0.24981412" />
@@ -360,10 +365,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3288889" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.3288889" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.44148147" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3288889" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50037175" side_tool="true" weight="0.3614815" />
-      <window_info anchor="bottom" x="10" y="291" width="1345" height="186" id="Terminal" order="11" sideWeight="0.49962825" side_tool="true" weight="0.36296296" />
+      <window_info anchor="bottom" x="10" y="291" width="1345" height="186" id="Terminal" order="11" sideWeight="0.49962825" side_tool="true" weight="0.53333336" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -673,16 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.storybook/addons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/CardList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -695,21 +690,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.storybook/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="45">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding>
-            <element signature="e#0#60#0" expanded="true" />
+            <element signature="e#333#392#0" expanded="true" />
+            <element signature="e#412#485#0" expanded="true" />
+            <element signature="e#505#600#0" expanded="true" />
+            <element signature="e#622#694#0" expanded="true" />
+            <element signature="e#716#820#0" expanded="true" />
+            <element signature="e#866#1012#0" expanded="true" />
+            <element signature="e#1064#1337#0" expanded="true" />
+            <element signature="e#1369#1446#0" expanded="true" />
+            <element signature="e#1500#1569#0" expanded="true" />
+            <element signature="e#1598#1678#0" expanded="true" />
+            <element signature="e#1710#1794#0" expanded="true" />
+            <element signature="e#1827#1919#0" expanded="true" />
+            <element signature="e#1953#2045#0" expanded="true" />
+            <element signature="e#2087#2189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/addons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="123">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#195#237#0" expanded="true" />
+            <element signature="e#194#236#0" expanded="true" />
           </folding>
         </state>
       </provider>

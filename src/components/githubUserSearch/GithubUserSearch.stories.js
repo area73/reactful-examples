@@ -6,6 +6,7 @@ import {text, number} from '@storybook/addon-knobs';
 import '../../../public/bundles/main.css';
 
 import Card from './Card.js';
+import {action} from '@storybook/addon-actions';
 
 const stories = storiesOf('GitHub User Search', module);
 
@@ -17,6 +18,7 @@ stories.add('Application', () => (
 
 stories.add('Card', () => {
   const props = {
+    update: action('delete-action'),
     name: text('name', 'Rui Díaz de Vivar'),
     company: text('company', 'React and Co'),
     id: number('id', 123),

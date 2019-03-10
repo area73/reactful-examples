@@ -1,9 +1,9 @@
 import { addParameters, configure } from '@storybook/react';
-import { themes } from '@storybook/theming';
+import  a73Theme  from './a73Theme.js';
 import { addDecorator } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 import {withInfo} from '@storybook/addon-info';
-
+import { themes } from '@storybook/theming';
 // global decorators
 addDecorator(withKnobs);
 addDecorator(withInfo(
@@ -85,6 +85,13 @@ inline: true,
 
 // Option defaults:
 addParameters({
+  backgrounds: [
+    { name: 'neutral', value: 'rgba(255,255,255,0.9)', default: true },
+    { name: 'dark', value: '#000' },
+    { name: 'light', value: '#fff' },
+    { name: 'twitter', value: '#00aced' },
+    { name: 'facebook', value: '#3b5998' },
+  ],
   options: {
     /**
      * show story component as full screen
@@ -144,7 +151,8 @@ addParameters({
      * theme storybook, see link below
      */
     // theme: undefined,
-    theme: themes.dark,
+    theme: a73Theme,
+    // theme: themes.dark,
   },
 });
 

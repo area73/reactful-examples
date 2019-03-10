@@ -4,7 +4,7 @@ import CardList from './CardList.js';
 import GitHubForm from './GitHubForm.js';
 import Toaster from './Toaster.js';
 
-class ClassApp extends React.Component {
+class GithubUserSearch extends React.Component {
 
   state = {
     profiles: [],
@@ -33,9 +33,10 @@ class ClassApp extends React.Component {
   }
 
   render() {
+    const title = this.props.initialData && this.props.initialData.appName ||'Hello World';
     return (
       <div>
-        <h1>{this.props.initialData.appName}</h1>
+        <h1>{title}</h1>
         <GitHubForm onSubmit={this.addProfile} onSubmitError={this.addError}/>
         <Toaster type="error" data={this.state.error} />
         <CardList profiles={this.state.profiles} update={this.removeProfile}/>
@@ -45,4 +46,4 @@ class ClassApp extends React.Component {
   }
 }
 
-export default ClassApp;
+export default GithubUserSearch;

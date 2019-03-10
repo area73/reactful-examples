@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 
 // import { App } from 'components/App';
-import  ClassApp  from 'components/ClassApp';
+import  GithubUserSearch  from 'components/githubUserSearch/GithubUserSearch';
 
 export async function serverRenderer() {
   const initialData = {
@@ -16,7 +16,7 @@ export async function serverRenderer() {
   return Promise.resolve({
     initialData,
     initialMarkup: ReactDOMServer.renderToString(
-      <ClassApp initialData={initialData} />
+      <GithubUserSearch initialData={initialData} />
     ),
     pageData,
   });

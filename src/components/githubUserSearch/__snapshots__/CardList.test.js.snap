@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardList renders correctly 1`] = `
+<div
+  className="card-list"
+>
+  <div
+    className="card"
+  >
+    <img
+      className="card_thumb"
+      src="https://avatars1.githubusercontent.com/u/2030605?v=4"
+    />
+    <div
+      className="card__info"
+    >
+      <div
+        className="card__substract"
+      >
+        <a
+          href=""
+          onClick={[Function]}
+        >
+          X
+        </a>
+      </div>
+      <div
+        className="card__name"
+      >
+        Rodrigo
+      </div>
+      <div
+        className="card__company"
+      >
+        Area 73
+      </div>
+    </div>
+  </div>
+  <div
+    className="card"
+  >
+    <img
+      className="card_thumb"
+      src="https://avatars3.githubusercontent.com/u/100354?v=4"
+    />
+    <div
+      className="card__info"
+    >
+      <div
+        className="card__substract"
+      >
+        <a
+          href=""
+          onClick={[Function]}
+        >
+          X
+        </a>
+      </div>
+      <div
+        className="card__name"
+      >
+        Alejandro Revilla
+      </div>
+      <div
+        className="card__company"
+      >
+        jPOS.org
+      </div>
+    </div>
+  </div>
+</div>
+`;

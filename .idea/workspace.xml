@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2cdc7dc-271f-4526-8840-aacdd306d60d" name="Default Changelist" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/a73Theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/a73Theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/addons.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/addons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,14 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="155">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#194#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,7 +41,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="217">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -58,25 +51,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.storybook/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="1302">
               <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
-                <element signature="e#333#392#0" expanded="true" />
-                <element signature="e#412#485#0" expanded="true" />
-                <element signature="e#505#600#0" expanded="true" />
-                <element signature="e#622#694#0" expanded="true" />
-                <element signature="e#716#820#0" expanded="true" />
-                <element signature="e#866#1012#0" expanded="true" />
-                <element signature="e#1064#1337#0" expanded="true" />
-                <element signature="e#1369#1446#0" expanded="true" />
-                <element signature="e#1500#1569#0" expanded="true" />
-                <element signature="e#1598#1678#0" expanded="true" />
-                <element signature="e#1710#1794#0" expanded="true" />
-                <element signature="e#1827#1919#0" expanded="true" />
-                <element signature="e#1953#2045#0" expanded="true" />
-                <element signature="e#2087#2189#0" expanded="true" />
-                <element signature="e#1398#1448#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,29 +76,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.storybook/a73Theme.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="310">
               <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.storybook/addons.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@storybook/theming/dist/themes/dark.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -219,6 +188,41 @@
               <item name="reactful-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactful-examples" type="462c0819:PsiDirectoryNode" />
               <item name=".storybook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactful-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactful-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactful-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactful-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@storybook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactful-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactful-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@storybook" type="462c0819:PsiDirectoryNode" />
+              <item name="theming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactful-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactful-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@storybook" type="462c0819:PsiDirectoryNode" />
+              <item name="theming" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reactful-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactful-examples" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@storybook" type="462c0819:PsiDirectoryNode" />
+              <item name="theming" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reactful-examples" type="b2602c69:ProjectViewProjectNode" />
@@ -378,7 +382,8 @@
       <workItem from="1552033202634" duration="25790000" />
       <workItem from="1552162676665" duration="1835000" />
       <workItem from="1552166435321" duration="1526000" />
-      <workItem from="1552168074597" duration="12462000" />
+      <workItem from="1552168074597" duration="12887000" />
+      <workItem from="1552296136581" duration="29000" />
     </task>
     <servers />
   </component>
@@ -388,7 +393,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57351000" />
+    <option name="totallyTimeSpent" value="57805000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,9 +406,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4977778" side_tool="true" visible="true" weight="0.22899628" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977778" side_tool="true" visible="true" weight="0.22899628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" weight="0.32936803" />
       <window_info id="Favorites" order="3" sideWeight="0.50222224" side_tool="true" weight="0.24981412" />
@@ -418,7 +422,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49962825" weight="0.44148147" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3288889" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50037175" side_tool="true" weight="0.3614815" />
-      <window_info anchor="bottom" x="10" y="291" width="1345" height="186" id="Terminal" order="11" sideWeight="0.50037175" side_tool="true" visible="true" weight="0.32740742" />
+      <window_info active="true" anchor="bottom" x="10" y="291" width="1345" height="186" id="Terminal" order="11" sideWeight="0.50037175" side_tool="true" visible="true" weight="0.32740742" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -641,16 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/Card.stories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/Card.stories.js" />
     <entry file="file://$PROJECT_DIR$/.eslintrc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -705,6 +700,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="217">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.storybook/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -716,65 +741,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.storybook/addons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.storybook/a73Theme.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="310">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.storybook/config.js">
+    <entry file="file://$PROJECT_DIR$/.storybook/addons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+        <state relative-caret-position="155">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#0#60#0" expanded="true" />
-            <element signature="e#333#392#0" expanded="true" />
-            <element signature="e#412#485#0" expanded="true" />
-            <element signature="e#505#600#0" expanded="true" />
-            <element signature="e#622#694#0" expanded="true" />
-            <element signature="e#716#820#0" expanded="true" />
-            <element signature="e#866#1012#0" expanded="true" />
-            <element signature="e#1064#1337#0" expanded="true" />
-            <element signature="e#1369#1446#0" expanded="true" />
-            <element signature="e#1500#1569#0" expanded="true" />
-            <element signature="e#1598#1678#0" expanded="true" />
-            <element signature="e#1710#1794#0" expanded="true" />
-            <element signature="e#1827#1919#0" expanded="true" />
-            <element signature="e#1953#2045#0" expanded="true" />
-            <element signature="e#2087#2189#0" expanded="true" />
-            <element signature="e#1398#1448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="217">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/githubUserSearch/GithubUserSearch.stories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#194#236#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
